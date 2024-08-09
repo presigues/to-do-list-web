@@ -1,3 +1,30 @@
+@font-face { font-family: pixel; src: url("Poppins-SemiBold.ttf"); }
+
 body{
     background-color: #3357B0;
+}
+
+#createback{
+    background-color: #5AA6D1;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cretitle{
+    color: white;
+    font-family: pixel;
+    font-size: 30px;
+    position: absolute;
+    left: 125px;
+
+}
+
+#emailtext{
+    
 }
