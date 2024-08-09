@@ -1,0 +1,35 @@
+@font-face { font-family: pixel; src: url("Poppins-SemiBold.ttf"); }
+body{
+    background-color: #3357B0;
+}
+
+#sidenav{
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    border-radius: 15px;
+    background-color: #5AA6D1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#create{
+    background-color: #3B89BA;
+    border: 2px solid #3B89BA;
+    width: 250px;
+    height: 40px;
+    color: #82CCF0;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 15px;
+    font-family: pixel;
+    left: 35px;
+    top: 25px;
+    transition-duration: 0.4s;
+}
+
+#create:hover{
+    background-color: #1B699E;
+    border: 2px solid #1B699E;
+}
