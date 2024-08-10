@@ -18,13 +18,15 @@ const firebaseConfig = {
     storageBucket: "to-do-list-web-a60e3.appspot.com",
     messagingSenderId: "618176734239",
     appId: "1:618176734239:web:741673d8c736f4da9e212a",
-    measurementId: "G-96SRZ18V1D"
+    measurementId: "G-96SRZ18V1D",
+    
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
+
 
 
 
@@ -40,7 +42,8 @@ submit.addEventListener("click", function (event) {
             // Signed up 
             const user = userCredential.user;
             alert("Logging In.....");
-            window.location.href = "main.html";
+            console.log("you are logged in as" + user);
+            console.log(userCredential)
             // ...
         })
         .catch((error) => {
@@ -51,3 +54,9 @@ submit.addEventListener("click", function (event) {
         });
 
 })
+
+
+
+
+
+

@@ -17,13 +17,15 @@ const firebaseConfig = {
     storageBucket: "to-do-list-web-a60e3.appspot.com",
     messagingSenderId: "618176734239",
     appId: "1:618176734239:web:741673d8c736f4da9e212a",
-    measurementId: "G-96SRZ18V1D"
+    measurementId: "G-96SRZ18V1D",
+    databaseURL: "https://to-do-list-web-a60e3-default-rtdb.firebaseio.com/"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
+const db = getDatabse();
 
 
 
@@ -51,3 +53,35 @@ submit.addEventListener("click", function (event) {
         });
 
 })
+
+function switchy(){
+document.getElementById("emailtext").style.display = "none";
+document.getElementById("email").style.display = "none";
+document.getElementById("passtext").style.display = "none";
+document.getElementById("pass").style.display = "none";
+document.getElementById("submit").style.display = "none";
+document.getElementById("loginoki").style.display = "none";
+}
+
+const finish = document.getElementById('submit');
+function accinfo(user){
+    finish.addEventListener("click", function (event) {
+event.preventDefault();
+;
+    })
+
+}
+
+const first = document.getElementById('firstname').value;
+const last = document.getElementById('lastname').value;
+const age = document.getElementById('age').value;
+
+function addData(first, last, age, user){
+    set(ref(db, 'UserInfo/' + user)), {
+        name: {firstname: first, lastname: last},
+        age: age,
+
+
+    }
+}
+
