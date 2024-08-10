@@ -36,7 +36,7 @@ const finish = document.getElementById('finish');
 function accinfo(user){
     finish.addEventListener("click", function (event) {
 event.preventDefault();
-addData(first, last, age, user);
+
    
 })
 }
@@ -46,7 +46,7 @@ addData(first, last, age, user);
 
 function addData(first, last, age, user){
     const db = getDatabse(app);
-    set(ref(db, 'UserInfo/' + user), {
+    set(ref(db, 'UserInfo/' + userId), {
         name: {firstname: first, lastname: last},
         age: age,
     }) 

@@ -25,11 +25,33 @@ body{
     font-size: 15px;
     font-family: pixel;
     left: 35px;
-    top: 25px;
+    top: 125px;
     transition-duration: 0.4s;
 }
 
 #create:hover{
     background-color: #1B699E;
     border: 2px solid #1B699E;
+}
+
+#setbut{
+width: 50px;
+height: 50px;
+position: absolute;
+left: 230px;
+top: 30px;
+}
+
+#setbut:hover{
+    animation: hoverani 1s ease-in-out;
+}
+
+@keyframes hoverani {
+    0%{
+
+    }
+    100%{
+        rotate: 360deg;
+    }
+    
 }
