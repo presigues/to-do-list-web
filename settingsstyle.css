@@ -171,3 +171,27 @@ body{
     background-color: #1B699E;
     border: 2px solid #1B699E;
 }
+
+#selecthemes{
+    background-color: #3B89BA;
+    border: 2px solid #3B89BA;
+    width: 200px;
+    height: 30px;
+    color: #82CCF0;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 15px;
+    font-family: pixel;
+    right: 80px;
+    top: 210px;
+    transition-duration: 0.4s;
+}
+
+#themes{
+    font-family: pixel;
+    color: #82CCF0;
+    font-size: 15px;
+    position: absolute;
+    right: 200px;
+    top: 170px;
+}
