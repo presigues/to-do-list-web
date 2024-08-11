@@ -182,7 +182,7 @@ body{
     position: absolute;
     font-size: 15px;
     font-family: pixel;
-    right: 80px;
+    right: 120px;
     top: 210px;
     transition-duration: 0.4s;
 }
@@ -194,4 +194,23 @@ body{
     position: absolute;
     right: 200px;
     top: 170px;
+}
+
+#logout{
+    background-color: #3B89BA;
+    border: 2px solid #3B89BA;
+    width: 200px;
+    height: 40px;
+    color: #82CCF0;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 15px;
+    font-family: pixel;
+    right: 60px;
+    top: 700px;
+    transition-duration: 0.4s;
+}
+#logout:hover{
+    background-color: #1B699E;
+    border: 2px solid #1B699E;
 }

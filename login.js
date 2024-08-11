@@ -44,6 +44,7 @@ submit.addEventListener("click", function (event) {
             console.log(userCredential)
             window.location.href = "main.html";
              console.log("you are logged in as" + email);
+             
             // ...
         })
         .catch((error) => {
@@ -55,7 +56,7 @@ submit.addEventListener("click", function (event) {
 
 })
 
-
+document.getElementById("email").innerHTML = email;
 
 
 
