@@ -40,12 +40,10 @@ submit.addEventListener("click", function (event) {
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed up 
-            const user = userCredential.user;
-            alert("Logging In.....");
-            console.log("you are logged in as" + email);
+            const user = userCredential.user;     
             console.log(userCredential)
             window.location.href = "main.html";
-
+             console.log("you are logged in as" + email);
             // ...
         })
         .catch((error) => {
@@ -57,7 +55,7 @@ submit.addEventListener("click", function (event) {
 
 })
 
-document.getElementById("firstnamedisplay").value = email;
+
 
 
 
