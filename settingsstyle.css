@@ -35,16 +35,51 @@ body{
 #firstname{
     font-family: pixel;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     position: absolute;
     left: 100px;
-    top: 50px;
+    top: 100px;
 }
 #lastname{
     font-family: pixel;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+
+#first{
+    font-family: pixel;
+    color: #82CCF0;
+    font-size: 10px;
     position: absolute;
     left: 100px;
-    top: 50px;
+    top: 80px;
+}
+#last{
+    font-family: pixel;
+    color: #82CCF0;
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+    top: 80px;
+}
+
+#email{
+    font-family: pixel;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+#password{
+    font-family: pixel;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
 }
