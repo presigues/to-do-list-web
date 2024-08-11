@@ -42,8 +42,10 @@ submit.addEventListener("click", function (event) {
             // Signed up 
             const user = userCredential.user;
             alert("Logging In.....");
-            console.log("you are logged in as" + user);
+            console.log("you are logged in as" + email);
             console.log(userCredential)
+            window.location.href = "main.html";
+
             // ...
         })
         .catch((error) => {
@@ -54,6 +56,8 @@ submit.addEventListener("click", function (event) {
         });
 
 })
+
+document.getElementById("firstnamedisplay").value = email;
 
 
 
