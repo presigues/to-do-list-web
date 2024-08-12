@@ -111,8 +111,24 @@ body{
     position: absolute;
     top: 400px;
     left: 10%;
-    
+    overflow: hidden; 
+  border-right: .10em solid #82CCF0; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .05em; 
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
+    
+@keyframes typing {
+    from { width: 0 }
+    to { width: 590px }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #82CCF0; }
+  }
 
 #info2{
     font-family: pixel;
