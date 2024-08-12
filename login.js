@@ -31,8 +31,8 @@ const auth = getAuth(app);
 
 
 const submit = document.getElementById('submit');
-submit.addEventListener("click", function (event) {
-    event.preventDefault();
+submit.addEventListener("click", function (e) {
+    e.preventDefault();
 
     const email = document.getElementById('email').value;
     const password = document.getElementById('pass').value;
@@ -57,9 +57,11 @@ submit.addEventListener("click", function (event) {
 })
 
 const logout = document.getElementById('logout');
-logout.addEventListener("click", function (event){
-    event.preventDefault();
-    firebase.auth().signOut()
+logout.addEventListener("click", function (e){
+    e.preventDefault();
+    auth().signOut().then(() =>{
+        console.log(email + "user has logged out");
+    })
 });
 
 document.getElementById("email").innerHTML = email;
