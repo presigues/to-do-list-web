@@ -30,44 +30,6 @@ const auth = getAuth(app);
 const emailerror ="auth/email-already-exists";
 
 
-function tolog(){
-    document.getElementById("createbacklog").style.display = "none";
-    document.getElementById("cretitlelog").style.display = "none";
-    document.getElementById("emailtextlog").style.display = "none";
-    document.getElementById("emaillog").style.display = "none";
-    document.getElementById("passtextlog").style.display = "none";
-    document.getElementById("passlog").style.display = "none";
-    document.getElementById("submit2").style.display = "none";
-    document.getElementById("loginokilog").style.display = "none";
-
-    document.getElementById("createback").style.display = "block";
-    document.getElementById("cretitle").style.display = "block";
-    document.getElementById("emailtext").style.display = "block";
-    document.getElementById("email").style.display = "block";
-    document.getElementById("passtext").style.display = "block";
-    document.getElementById("pass").style.display = "block";
-    document.getElementById("submit2").style.display = "block";
-    document.getElementById("loginoki").style.display = "block";
-}
-function tosign(){
-    document.getElementById("createbacklog").style.display = "block";
-    document.getElementById("cretitlelog").style.display = "block";
-    document.getElementById("emailtextlog").style.display = "block";
-    document.getElementById("emaillog").style.display = "block";
-    document.getElementById("passtextlog").style.display = "block";
-    document.getElementById("passlog").style.display = "block";
-    document.getElementById("submit2").style.display = "block";
-    document.getElementById("loginokilog").style.display = "block";
-
-    document.getElementById("createback").style.display = "none";
-    document.getElementById("cretitle").style.display = "none";
-    document.getElementById("emailtext").style.display = "none";
-    document.getElementById("email").style.display = "none";
-    document.getElementById("passtext").style.display = "none";
-    document.getElementById("pass").style.display = "none";
-    document.getElementById("submit2").style.display = "none";
-    document.getElementById("loginoki").style.display = "none";
-}
 
 
 
