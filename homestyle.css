@@ -96,13 +96,13 @@ body{
     top: 100px;
 }
 
-#welcome{
+#welcome1{
     font-family: lexend;
     font-size: 100px;
     color: white;
     position: absolute;
     top: 70px;
-    left: 10%;
+    left: 12%;
     margin-left: 400px;
     margin-right: 400px;
     
@@ -115,6 +115,67 @@ body{
     transition: transform 0.3s;
 
     animation: shift 500ms ease-in-out;
+}
+#welcome2{
+    font-family: lexend;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 12%;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    text-align: center;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+
+    animation: shift 800ms ease-in-out;
+}
+#welcome3{
+    font-family: lexend;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 13%;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    text-align: center;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+
+    animation: shift 1200ms ease-in-out;
+}
+
+#welcome4{
+    font-family: lexend;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    right: 13%;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    text-align: center;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+
+    animation: shift 1400ms ease-in-out;
 }
 
 @keyframes shift {
@@ -133,11 +194,11 @@ body{
 
 #info1{
     font-family: lexendlight;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     position: absolute;
     top: 400px;
-    left: 10%;
+    left: 35%;
     overflow: hidden; 
   border-right: .10em solid #ffffff; 
   white-space: nowrap;
