@@ -44,3 +44,55 @@ body{
     background-color: #1B699E;
     border: 2px solid #1B699E;
 }
+
+#credits{
+    background-color: #3B89BA;
+    border: 2px solid #3B89BA;
+    width: 150px;
+    height: 50px;
+    color: #82CCF0;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 15px;
+    font-family: pixel;
+    right: 240px;
+    top:35px;
+    transition-duration: 0.4s;
+    
+}
+
+#credits:hover{
+    background-color: #1B699E;
+    border: 2px solid #1B699E;
+}
+
+#about{
+    background-color: #3B89BA;
+    border: 2px solid #3B89BA;
+    width: 150px;
+    height: 50px;
+    color: #82CCF0;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 15px;
+    font-family: pixel;
+    right: 400px;
+    top:35px;
+    transition-duration: 0.4s;
+    
+}
+
+#about:hover{
+    background-color: #1B699E;
+    border: 2px solid #1B699E;
+}
+
+#welcome{
+    font-family: pixel;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
