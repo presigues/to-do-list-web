@@ -7,6 +7,7 @@
     <title>Settings</title>
     <link rel="icon" type="image/x-icon" href="imgs/Screenshot 2024-08-10 185618.jpg">
     <script type = "module" defer src="login.js"></script>
+    <script src="settinghandler.js"></script>
 </head>
 <body id="setbody">
 
@@ -31,8 +32,8 @@
 
 <p id="themes">Themes</p>
 <select id="selecthemes">
-    <option id="light">Light</option>
-    <option id="dark">Dark</option>
+    <option id="light" >Light</option>
+    <option id="dark" onselect="dark()">Dark</option>
     <option id="mid">Midnight</option>
     <option id="original">Original</option>
 </select>

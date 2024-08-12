@@ -43,7 +43,7 @@ submit.addEventListener("click", function (event) {
             const user = userCredential.user;     
             console.log(userCredential)
             window.location.href = "main.html";
-             console.log("you are logged in as" + email);
+            console.log("you are logged in as" + email);
              
             // ...
         })
@@ -56,7 +56,14 @@ submit.addEventListener("click", function (event) {
 
 })
 
+const logout = document.getElementById('logout');
+logout.addEventListener("click", function (event){
+    event.preventDefault();
+    firebase.auth().signOut()
+});
+
 document.getElementById("email").innerHTML = email;
+console.log("you are logged in as" + email);
 
 
 
