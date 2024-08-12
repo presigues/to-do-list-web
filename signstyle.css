@@ -170,7 +170,7 @@ body{
     font-size: 30px;
     position: absolute;
     left: 200px;
-    display: none;
+
 
 }
 
@@ -181,7 +181,7 @@ body{
     position: absolute;
     margin-left: 65px;
     top: 100px;
-    display: none;
+   
 
 
 }
@@ -199,7 +199,7 @@ body{
     height: 25px;
     position: absolute;
     top: 140px;
-    display: none;
+  
 
 }
 #passtextlog{
@@ -209,7 +209,7 @@ body{
     position: absolute;
     margin-left: 65px;
     top: 200px;
-    display: none;
+
 
 
 }
@@ -227,7 +227,7 @@ body{
     height: 25px;
     position: absolute;
     top: 240px;
-    display: none;
+   
 
 }
 
@@ -244,7 +244,7 @@ body{
     left: 120px;
     top:350px;
     transition-duration: 0.4s;
-    display: none;
+  
 
 }
 
