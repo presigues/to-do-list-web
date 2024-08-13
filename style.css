@@ -1,6 +1,8 @@
-@font-face { font-family: pixel; src: url("Poppins-SemiBold.ttf"); }
+@font-face { font-family: pixel; src: url("SpaceGrotesk-Bold.ttf"); }
+@font-face { font-family: lexend; src: url("Lexend-Bold.ttf"); }
+@font-face { font-family: lexendlight; src: url("Lexend-Light.ttf"); }
 body{
-    background-color: #3357B0;
+    background-color: #0b1215;
 }
 
 #sidenav{
@@ -10,28 +12,28 @@ body{
     left: -20px;
     top: 0px;
     border-radius: 15px;
-    background-color: #5AA6D1;
+    background-color: #101720;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #create{
-    background-color: #3B89BA;
-    border: 2px solid #3B89BA;
+    background-color: #141c27;
+    border: 2px solid #141c27;
     width: 250px;
     height: 40px;
-    color: #82CCF0;
+    color: #ffffff;
     border-radius: 15px;
     position: absolute;
     font-size: 15px;
-    font-family: pixel;
+    font-family: lexend;
     left: 35px;
     top: 125px;
     transition-duration: 0.4s;
 }
 
 #create:hover{
-    background-color: #1B699E;
-    border: 2px solid #1B699E;
+    background-color: #0b1215;
+    border: 2px solid #0b1215;
 }
 
 #setbut{
@@ -67,7 +69,7 @@ top: 30px;
 }
 
 #firstnamedisplay{
-    font-family: pixel;
+    font-family: lexend;
     color: white;
     font-size: 15px;
     position: absolute;
@@ -76,10 +78,28 @@ top: 30px;
 }
 
 #lastnamedisplay{
-    font-family: pixel;
+    font-family: lexend;
     color: white;
     font-size: 15px;
     position: absolute;
     left: 100px;
     top: 40px;
+}
+
+#backtitle{
+    background-image: linear-gradient(150deg, #0b1215,#12122e, #13133f, #0c0c3d, #06064d , #0c0c3d , #13133f ,#12122e , #0b1215);
+    width: 75%;
+    height: 300px;
+    filter: blur(40px);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+#welcomepage{
+    position: absolute;
+    height: 99%;
+    left: 300px;
+    width: 2000px;
 }

@@ -389,12 +389,12 @@ body{
 }
 
 #loginokilog{
-    color: #82CCF0;
+    color: #ffffff;
     position: absolute;
     top: 400px;
-    left: 95px;
-    font-family: pixel;
-    display: none;
+    left: 105px;
+    font-family: lexend;
+
 }
 
 #nav{
