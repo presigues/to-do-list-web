@@ -362,6 +362,15 @@ body{
     position: absolute;
     left: 200px;
     top: 500px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+}
+#mainpanel1:hover{
+    transform: translateY(-10px);
 }
 
 #mainpanel2{
@@ -373,7 +382,17 @@ body{
     position: absolute;
     right: 200px;
     top: 500px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
 }
+#mainpanel2:hover{
+    transform: translateY(-10px);
+}
+
 
 #mainpanel3{
     background-color: #101720;
@@ -382,7 +401,42 @@ body{
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     position: absolute;
-    left: 50%;
+    left: 750px;
     top: 500px;
-    transform: translate(-50%);
+     
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+}
+#mainpanel3:hover{
+    transform: translateY(-10px);
+}
+
+#explain1{
+    font-family: lexend;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+
+}
+#explain2{
+    font-family: lexend;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+
+
+}
+#explain3{
+    font-family: lexend;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+
 }
