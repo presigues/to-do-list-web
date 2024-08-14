@@ -30,12 +30,12 @@ const auth = getAuth(app);
 
 
 
-const submit = document.getElementById('submit');
+const submit = document.getElementById('submit2');
 submit.addEventListener("click", function (e) {
     e.preventDefault();
 
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('pass').value;
+    const email = document.getElementById('emaillog').value;
+    const password = document.getElementById('passlog').value;
 
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
@@ -55,7 +55,7 @@ submit.addEventListener("click", function (e) {
         });
 
 })
-
+/*
 const logout = document.getElementById('logout');
 logout.addEventListener("click", function (e){
     e.preventDefault();
@@ -66,8 +66,7 @@ logout.addEventListener("click", function (e){
 
 document.getElementById("email").innerHTML = email;
 console.log("you are logged in as" + email);
-
-
+*/
 
 
 
