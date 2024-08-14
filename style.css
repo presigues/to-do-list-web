@@ -11,7 +11,7 @@ body{
     position: fixed;
     left: -20px;
     top: 0px;
-    border-radius: 15px;
+   
     background-color: #101720;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -111,13 +111,54 @@ top: 30px;
     position: absolute;
     top: 75px;
     left: 600px;
+    overflow: hidden; 
+  border-right: .10em solid #ffffff; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .05em;
+  margin-left: 100px;
+  margin-right: 100px; 
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
-
 #tut1{
     font-family: lexendlight;
     font-size: 25px;
     color: white;
     position: absolute;
     top: 300px;
+    left: 500px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 800px }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffffff; }
+  }
+
+  @keyframes shift {
+    0%{
+        filter: blur(40px);
+        opacity: 0;
+    
+    }
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+        
+    }
+    
+}
+
+#tut2{
+    font-family: lexendlight;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 400px;
     left: 500px;
 }
