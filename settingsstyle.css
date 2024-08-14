@@ -1,8 +1,9 @@
-@font-face { font-family: pixel; src: url("Poppins-SemiBold.ttf"); }
-#setbody{
-    background-color: #3357B0;
+@font-face { font-family: pixel; src: url("SpaceGrotesk-Bold.ttf"); }
+@font-face { font-family: lexend; src: url("Lexend-Bold.ttf"); }
+@font-face { font-family: lexendlight; src: url("Lexend-Light.ttf"); }
+body{
+    background-color: #0b1215;
 }
-
 #setback{
     height: 800px;
     width: 900px;
