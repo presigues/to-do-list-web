@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="loginstyle.css"/>
-    <script type = "module" defer src="register.js"></script>
-
-
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    <script type = "module" defer src="js/login.js"></script>
+    <script src="js/thefunstuff.js"></script>
+    <link rel="stylesheet" href="style/signstyle.css"/>
 </head>
-
 <body>
-     <nav id="nav">
-        <p id="navtitle">MyTasks</p>
+
+    <nav id="homenav">
+        <a href="home.html">
+        <p id="navtitle">MyTask</p>
+        </a>
+        <a href="register.html">
+        <button id="login">Login</button>
+        </a>
+        <a href="https://github.com/presigues">
+            <img id="git" src="imgs/kindpng_1280233.png">
+            </a>
+            <a href="about.html">
+                <button id="about">About</button>
+                </a>
     </nav>
     
-<div id="createback">
-<p id="cretitle">Login</p>
-<p id="emailtext">Email</p>
-<input id="email" type="text" placeholder="Email">
-<p id="passtext">Password</p>
-<input id="pass" type="password" placeholder="Password">
-<button id="submit2" type="submit">Login</button>
-<p id="loginoki">Dont have an account? Sign up <a href="signup.html">Here</a></p>
-</div>
+    <!-- LOG IN -->
+<div id="createbacklog">
+    <p id="cretitlelog">Login</p>
+    <p id="emailtextlog">Email</p>
+    <input id="emaillog" type="text" placeholder="Email">
+    <p id="passtextlog">Password</p>
+    <input id="passlog" type="password" placeholder="Password">
+    <button id="submit2" type="submit">Login</button>
+    <p id="loginokilog">Dont have an account? Sign up </p>
+    <a href="register.html">
+        <button id="here2">Here</button>
+        </a>
+    </div>
     
 </body>
 </html>

@@ -28,7 +28,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
-const db = firebase.firestore();
+
 
 
 const submit = document.getElementById('submit');
@@ -37,8 +37,6 @@ submit.addEventListener("click", function (event) {
 
     const email = document.getElementById('email').value;
     const password = document.getElementById('pass').value;
-
-
 
     createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
@@ -57,36 +55,6 @@ submit.addEventListener("click", function (event) {
             // ..
         });
 
-})
+});
 
 
-
-
-/*
-const submit2 = document.getElementById('submit2');
-submit2.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    const email2 = document.getElementById('emaillog').value;
-    const password2 = document.getElementById('passlog').value;
-
-    signInWithEmailAndPassword(auth, email2, password2)
-        .then((userCredential) => {
-            // Signed up 
-            const user = userCredential.user;     
-            console.log(userCredential)
-            window.location.href = "main.html";
-            console.log("you are logged in as" + email);
-             
-            // ...
-        })
-        .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert(errorMessage);
-            // ..
-        });
-
-})
-        
-*/
