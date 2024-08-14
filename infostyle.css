@@ -75,7 +75,7 @@ body{
 }
 
 #createback{
-    background-color: #5AA6D1;
+    background-color: #101720;
     width: 500px;
     height: 600px;
     border-radius: 15px;
@@ -88,7 +88,7 @@ body{
 
 #cretitle{
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     font-size: 30px;
     position: absolute;
     left: 150px;
@@ -97,7 +97,7 @@ body{
 
 #namefirst{
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     font-size: 15px;
     position: absolute;
     margin-left: 65px;
@@ -110,7 +110,7 @@ body{
 
     border: 2px solid white;
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     background-color: transparent;
     font-size: 10px;
     border-radius: 5px;
@@ -123,7 +123,7 @@ body{
 }
 #namelast{
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     font-size: 15px;
     position: absolute;
     margin-left: 65px;
@@ -136,7 +136,7 @@ body{
 
     border: 2px solid white;
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     background-color: transparent;
     font-size: 10px;
     border-radius: 5px;
@@ -150,7 +150,7 @@ body{
 
 #agep{
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     font-size: 15px;
     position: absolute;
     margin-left: 65px;
@@ -163,7 +163,7 @@ body{
 
     border: 2px solid white;
     color: white;
-    font-family: pixel;
+    font-family: lexend;
     background-color: transparent;
     font-size: 10px;
     border-radius: 5px;
@@ -176,15 +176,15 @@ body{
 }
 
 #finalinfo{
-    background-color: #3B89BA;
-    border: 2px solid #3B89BA;
+    background-color: #141c27;
+    border: 2px solid #141c27;
     width: 250px;
     height: 40px;
     color: #82CCF0;
     border-radius: 15px;
     position: absolute;
     font-size: 15px;
-    font-family: pixel;
+    font-family: lexend;
     left: 120px;
     top:390px;
     transition-duration: 0.4s;
@@ -192,6 +192,6 @@ body{
 }
 
 #finalinfo:hover{
-    background-color: #1B699E;
-    border: 2px solid #1B699E;
+    background-color: #0b1215;
+    border: 2px solid #0b1215;
 }
