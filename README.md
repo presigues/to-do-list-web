@@ -16,8 +16,10 @@ overall even though this project is still a wip  i hope you enjoy checking out t
 
 1 download all files
 
-2 make three folders, one called "imgs", one called "js", and one called "style"
+2 make a folder named whatever you want to put all the files in
 
-3 put the images in the "imgs" folder, the javascript files in "js" folder and css and font files in the "style" folder
+3 make three folders in the project folder, one called "imgs", one called "js", and one called "style"
 
-4 use live server and click "golive" while viewing the "home.html" file
+4 put the images in the "imgs" folder, the javascript files in "js" folder and css and font files in the "style" folder
+
+5 use live server and click "golive" while viewing the "home.html" file
